@@ -22,11 +22,11 @@ Python, pandas, NumPy, matplotlib, seaborn, scikit-learn, SciPy, Jupyter.
 
 The notebooks render directly on GitHub with their charts, so you can read them without running anything.
 
-To run them yourself:
+To run them yourself, use Python 3.11 or newer:
 
 ```
-pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
+pip install -r requirements.txt
 jupyter notebook
 ```
 
-Open a notebook from inside its own folder so it finds its data. The insurance, life expectancy and census projects include their data. The Stack Overflow and Yelp datasets came from Codecademy and aren't included here.
+Open a notebook from inside its own folder so it finds its data. The insurance, life expectancy and census projects include their data and run as they are. The Stack Overflow and Yelp datasets aren't stored here; each of those folders has a README that says where to get them.
