@@ -1,0 +1,14 @@
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Datasets that are downloaded separately (see each project's README)
+StackOverflow_Client_Project/developer_dataset.csv
+StackOverflow_Client_Project/developer_dataset.csv.zip
+Yelp Regression Workbook Project/yelp_*.json
